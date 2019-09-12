@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script src="cookies.js"></script>
+
+<script>
+    const cookies = new Cookies();
+
+    const date = new Date();
+    date.setDate(15);
+    cookies.set('test', 'success', {expires: date});
+
+    cookies.delete('test');
+    cookies.set('test2', 'success2');
+
+    console.log(cookies.get('test2'));
+</script>
+
+</body>
+</html>
