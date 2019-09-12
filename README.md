@@ -10,19 +10,19 @@ const cookies = new Cookies();
 ### Create cookie
 You can just create cookie for **30 days** easy:
 ```js
-cookies.setCookie('name', 'value');
+cookies.set('name', 'value');
 ```
 Also, you can set expires date:
 
 ```js
 const date = new Date();
 date.setDate(15); //Set 15th of month cookie is expires.
-cookies.setCookie('name', 'value', {expires: date});
+cookies.set('name', 'value', {expires: date});
 ```
 That's works also for updating cookies.
 ### Get cookie
 ```js
-const value = cookies.deleteCookie('name'); //Return value or undefined, if cookie is not exists
+const value = cookies.get('name'); //Return value or undefined, if cookie is not exists
 ```
 
 ### Delete cookie
