@@ -24,7 +24,6 @@ class Cookies {
         }
 
         document.cookie = updatedCookie;
-        console.log(document.cookie);
     };
 
     get(name) {

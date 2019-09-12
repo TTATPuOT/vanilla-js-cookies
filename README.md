@@ -1,5 +1,5 @@
-# Vanila JS ES6 Cookies
-[Russian documentation here.](https://code.patriotovsky.ru/)
+# Vanilla JS ES6 Cookies
+[Russian documentation here.](https://code.patriotovsky.ru/rabota-s-cookie-na-chistom-javascript/)
 
 ## How to use
 ### Create a instance of class
